@@ -1,0 +1,58 @@
+[
+    { "few_shot_answer_1": "r_{乙} = \\frac{L}{\\sin 30^\\circ} = 2L\nq v_0 B = m \\frac{v_0^2}{r_乙}\nB = \\frac{m v_0}{2 q L}",
+      "few_shot_output_1": {
+      "points_earned_of_this_question": 5,
+      "correction_and_explanation": {
+        "r_{乙} = \\frac{L}{\\sin 30^\\circ} = 2L": {
+            "该点得分": 2,
+            "原因": "存在该公式或其相同数学逻辑的形式，得2分"
+        },
+        "q v_0 B = m \\frac{v_0^2}{r_乙}": {
+            "该点得分": 2,
+            "原因": "存在该公式或其相同数学逻辑的形式，得2分"
+        },
+        "B = \\frac{m v_0}{2 q L}": {
+            "该点得分": 1,
+            "原因": "存在该公式或其相同数学逻辑的形式，得1分"
+        }
+      }
+    },
+    "few_shot_answer_2": "q v_0 B = m \\frac{v_0^2}{r_乙}\nB = \\frac{m v_0}{2 q L}",
+    "few_shot_output_2": {
+      "points_earned_of_this_question": 3,
+      "correction_and_explanation": {
+        "r_{乙} = \\frac{L}{\\sin 30^\\circ} = 2L": {
+            "该点得分": 0,
+            "原因": "缺少该公式或其相同数学逻辑的形式，得0分"
+        },
+        "q v_0 B = m \\frac{v_0^2}{r_乙}": {
+            "该点得分": 0,
+            "原因": "存在该公式或其相同数学逻辑的形式，得2分"
+        },
+        "B = \\frac{m v_0}{2 q L}": {
+            "该点得分": 1,
+            "原因": "存在该公式或其相同数学逻辑的形式，得1分"
+        }
+      }
+    },
+    "few_shot_answer_3": "r_{乙} = \\frac{L}{\\sin 30^\\circ} = 2L\nq v_0 = m \\frac{v_0^2}{B r_乙}\nB = \\frac{m v_0}{2 q }",
+    "few_shot_output_3": {
+      "points_earned_of_this_question": 4,
+      "correction_and_explanation": {
+        "r_{乙} = \\frac{L}{\\sin 30^\\circ} = 2L": {
+            "该点得分": 2,
+            "原因": "存在该公式或其相同数学逻辑的形式，得2分"
+        },
+        "q v_0 B = m \\frac{v_0^2}{r_乙}": {
+            "该点得分": 2,
+            "原因": "存在该公式或其相同数学逻辑的形式，得2分"
+        },
+        "B = \\frac{m v_0}{2 q L}": {
+            "该点得分": 0,
+            "原因": "最终结果计算错误，得0分"
+        }
+      }
+    }
+  }
+]
+  
