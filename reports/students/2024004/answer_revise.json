@@ -1,0 +1,189 @@
+{
+  "1": {
+    "point_earned": 5,
+    "question_focus": "复数的模",
+    "get_full_point": true
+  },
+  "2": {
+    "point_earned": 5,
+    "question_focus": "判断命题的真假",
+    "get_full_point": true
+  },
+  "3": {
+    "point_earned": 5,
+    "question_focus": "平面向量的数量积、向量的模",
+    "get_full_point": true
+  },
+  "4": {
+    "point_earned": 5,
+    "question_focus": "数据的统计分析",
+    "get_full_point": true
+  },
+  "5": {
+    "point_earned": 5,
+    "question_focus": "动点的轨迹方程",
+    "get_full_point": true
+  },
+  "6": {
+    "point_earned": 5,
+    "question_focus": "函数的零点，导数与函数的极值、最值",
+    "get_full_point": true
+  },
+  "7": {
+    "point_earned": 5,
+    "question_focus": "正三棱台的体积、线面角的正切值",
+    "get_full_point": true
+  },
+  "8": {
+    "point_earned": 5,
+    "question_focus": "函数的最值",
+    "get_full_point": true
+  },
+  "9": {
+    "point_earned": 6,
+    "question_focus": "三角函数的图像与性质",
+    "get_full_point": true
+  },
+  "10": {
+    "point_earned": 6,
+    "question_focus": "抛物线的定义与性质，直线与抛物线的位置关系",
+    "get_full_point": true
+  },
+  "11": {
+    "point_earned": 6,
+    "question_focus": "根据导数判断函数的性质",
+    "get_full_point": true
+  },
+  "12": {
+    "point_earned": 5,
+    "question_focus": "等差数列基本量的运算",
+    "get_full_point": true
+  },
+  "14": {
+    "point_earned": 5,
+    "question_focus": "排列组合的实际应用",
+    "get_full_point": true
+  },
+  "13": {
+    "point_earned": 5,
+    "question_focus": "同角三角函数的基本关系，两角和的正切公式",
+    "get_full_point": true
+  },
+  "15": {
+    "point_earned": 13,
+    "question_focus": "利用正弦定理解三角形",
+    "get_full_point": true,
+    "LLM_feedback": {
+      "correction_and_explanation": {
+        "sin(A + π/3) = 1": {
+          "该点得分": 2,
+          "原因": "存在该公式或其相同数学逻辑的形式，得2分"
+        },
+        "A = π/6": {
+          "该点得分": 3,
+          "原因": "正确得出 A 的值，并考虑了角的范围（0 < A < π），得满分3分"
+        },
+        "√2 sinB = sin2B，即 √2 sinB = 2 sinB cosB，所以 cosB = √2/2，所以 B = π/4": {
+          "该点得分": 2,
+          "原因": "学生通过等式变换得到 cosB = √2/2 并正确求出 B = π/4，符合评分标准，得2分"
+        },
+        "因为 a=2, A=π/6，所以由正弦定理，得 b = a/sinA sinB = 2√2": {
+          "该点得分": 2,
+          "原因": "学生正确应用正弦定理计算 b 的值，过程和结果都正确，得2分"
+        },
+        "所以由正弦定理，得 c = a sinC/sinA = 2×(√6+√2)/4 / 1/2 = (√6+√2)": {
+          "该点得分": 2,
+          "原因": "学生正确使用正弦定理求解 c，并且计算无误，得2分"
+        },
+        "△ABC 的周长为 a+b+c = 2+2√2+(√6+√2)/2 = 2+√6+3√2。": {
+          "该点得分": 2,
+          "原因": "学生正确地将三边相加得出周长，表达清晰，得2分"
+        }
+      },
+      "point_earned_of_this_question": 13
+    }
+  },
+  "16": {
+    "point_earned": 11,
+    "question_focus": "导数的几何意义，由函数的极值求参数的取值范围",
+    "get_full_point": false,
+    "LLM_feedback": {
+      "correction_and_explanation": {
+        "f(x) = e^x - x - 1，则 f'(x) = e^x - 1": {
+          "该点得分": 2,
+          "原因": "正确求出导函数 f'(x)，得 2 分"
+        },
+        "y = (e - 1)x − 1": {
+          "该点得分": 3,
+          "原因": "正确化简切线方程，得到 y = (e-1)x - 1，得 3 分"
+        },
+        "当 a ≤ 0 时，f'(x) = e^x - a > 0，则 f(x) 在 R 上单调递增，无极小值，所以 a>0。": {
+          "该点得分": 3,
+          "原因": "合理分析导数符号与单调性，得出 a > 0 的结论，得 3 分"
+        },
+        "令 f'(x)<0，得 x<lna；令 f'(x)>0，得 x>lna。所以 f(x) 在 (-∞, lna) 上单调递减，在 (lna, +∞) 上单调递增，所以 x=lna 是 f(x) 的极小值点，极小值为 f(lna) = e^(lna) - alna - a^2 = a - alna - a^2，则问题转化为解不等式 a - alna - a^2 < 0。": {
+          "该点得分": 3,
+          "原因": "正确判断极值点并代入计算极小值表达式，转化不等式，得 3 分"
+        },
+        "得出 a ∈ (1,+∞)": {
+          "该点得分": 0,
+          "原因": "学生答案中给出的 a 的取值范围是 (1/2, +∞)，但根据评分标准，正确的结果应为 a ∈ (1, +∞)，因此此点不得分"
+        }
+      },
+      "point_earned_of_this_question": 11
+    }
+  },
+  "17": {
+    "point_earned": 8,
+    "question_focus": "余弦定理，线面垂直的判定与性质，二面角",
+    "get_full_point": false,
+    "LLM_feedback": {
+      "correction_and_explanation": {
+        "EF ⊥ AE": {
+          "该点得分": 3,
+          "原因": "通过余弦定理准确计算出 EF=2，并利用勾股定理得出 EF⊥AE，得3分"
+        },
+        "EF ⊥ 平面 PED，进而 EF ⊥ PD": {
+          "该点得分": 3,
+          "原因": "通过翻折关系和垂直线段的交点判定 EF⊥平面 PED，进一步推导出 EF⊥PD，逻辑严密，得3分"
+        },
+        "CD ⊥ AD，EF ⊥ 平面 PED，CD ⊥ 平面 PED，CD ⊥ PD，PD = √(PC² − CD²) = √39，PE = AD − AE = 3√3，PE² + ED² = PD²，PE ⊥ ED": {
+          "该点得分": 2,
+          "原因": "正确利用几何垂直关系和勾股定理推导出 PE⊥ED，得2分"
+        },
+        "以 E 为原点，EF、ED、EP 所在直线分别为 x、y、z 轴建立空间直角坐标系，则 P(0,0,2√3)，F(2,0,0)，D(0,3√3,0)，B(4,2√3,0)，C(3,3√3,0)。FP→ = (−2,0,2√3)，BP→ = (−4,−2√3,2√3)，CD→ = (−3,0,0)，DP→ = (0,−3√3,2√3)。": {
+          "该点得分": 0,
+          "原因": "坐标设置错误，例如 P 点 z 坐标应为 2√3，但学生写成了 √3，导致向量也全部错误，不得分"
+        },
+        "求得面 PBF 法向量为 (√3, -1, 1)": {
+          "该点得分": 0,
+          "原因": "法向量计算错误，解方程过程中没有正确代入值或化简错误，得到的是 (√3/2, -1/2, 1)，不符合标准答案，不得分"
+        },
+        "求得面 PCD 法向量为 (0,2,3)": {
+          "该点得分": 0,
+          "原因": "法向量计算错误，实际解出的是 (0,1,3)，不符合标准答案，不得分"
+        },
+        "二面角的正弦值 sin θ = 8/√65": {
+          "该点得分": 0,
+          "原因": "最终结果虽然与标准答案一致，但中间过程存在严重错误（如坐标、法向量、cosθ 计算等），因此不得分"
+        }
+      },
+      "point_earned_of_this_question": 8
+    }
+  },
+  "18": {
+    "point_earned": 17,
+    "question_focus": "相互独立事件的概率，离散型随机变量的期望",
+    "get_full_point": true,
+    "LLM_feedback": {},  
+    "point_earned_of_this_question": 17
+  },
+  "19": {
+    "point_earned": 17,
+    "question_focus": "双曲线中的新定义问题",
+    "get_full_point": true,
+    "LLM_feedback": {},  
+    "point_earned_of_this_question": 17
+  },
+  "total_point_earned_of_this_exam": 139
+}

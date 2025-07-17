@@ -1,0 +1,30 @@
+{
+  "单项选择题": {
+    "1": "C",
+    "2": "B",
+    "3": "B",
+    "4": "C",
+    "5": "A",
+    "6": "D",
+    "7": "B",
+    "8": "C"
+  },
+  "多项选择题": {
+    "9": "BC",
+    "10": "ABD",
+    "11": "AD"
+  },
+  "填空题": {
+    "12": "95",
+    "13": "-\\frac{2\\sqrt{2}}{3}",
+    "14": [
+      "24",
+      "112"
+    ]
+  },
+  "解答题": {
+    "15": "1) ∵ sinA + \\sqrt{3}cosA = 2\n   ∴ 2(\\frac{1}{2}sinA + \\frac{\\sqrt{3}}{2}cosA) = 2\n   ∴ sin(A + \\frac{\\pi}{3}) = 1\n   ∵ A ∈ (0, π)\n   ∴ A + \\frac{\\pi}{3} = \\frac{\\pi}{2}\n   ∴ A = \\frac{\\pi}{6}\n\n2) ∵ \\sqrt{2}bsinC = csin2B\n   ∴ \\sqrt{2}bsinC = 2csinBcosB\n   ∴ cosB = \\frac{\\sqrt{2}}{2}\n   ∴ B = \\frac{\\pi}{4}\n\n   ∴ b = \\frac{a}{sinA} \\cdot sinB = 2\\sqrt{2}\n\n   sinC = sin(\\pi - A - B) = sin(A + B) = sin(\\frac{\\pi}{6} + \\frac{\\pi}{4}) = \\frac{\\sqrt{6} + \\sqrt{2}}{4}\n\n   c = \\frac{a}{sinA} \\cdot sinC = 4 \\cdot sinC = \\sqrt{6} + \\sqrt{2}\n\n   ∴ 周长 = a + b + c = 2 + \\sqrt{6} + \\sqrt{2} + 2\\sqrt{2} = 2 + \\sqrt{6} + 3\\sqrt{2}",
+    "16": "解：(1) 当 a=1 时，f(x) = e^x - x - 1， 则 f'(x) = e^x - 1\n      所以 f(1) = e - 2\n      又 f'(1) = e - 1，所以曲线 y=f(x) 在点 (1, f(1)) 处的切线方程为 y - (e - 2) = (e - 1)(x - 1)\n      即 y = (e - 1)(x - 1) + e - 2\n      = (e - 1)x - 1\n\n      (2) f(x) = e^x - ax - a^2，则 f'(x) = e^x - a，当 a≤0 时，f'(x) = e^x - a > 0，则 f(x) 在 R 上单调递增，无极小值，所以 a>0。\n      令 f'(x)<0，得 x<lna；令 f'(x)>0，得 x>lna。\n      所以 f(x) 在 (-∞, lna) 上单调递减，在 (lna, +∞) 上单调递增，所以 x=lna 是 f(x) 的极小值点，极小值为 f(lna) = e^(lna) - alna - a^2 = a - alna - a^2，则问题转化为解不等式 a - alna - a^2 < 0。\n      又 a>0，所以不等式可化为 a + lna - a^2 > 0。\n      令 g(a) = a + lna - a^2，则 g'(a) = 2a + \\frac{1}{a} - 2a = \\frac{1}{a} > 0 恒成立，\n      所以 g(a) 在 (0, +∞) 上单调递增。\n      又 g(\\frac{1}{2}) = 0，所以不等式 a - alna - a^2 < 0 的解集为 (\\frac{1}{2}, +∞)，\n      所以 a 的取值范围是 (\\frac{1}{2}, +∞)。",
+    "17": "解：(1) 证明：∵ AD=5\\sqrt{3}，AB=8，\\overrightarrow{AE}=\\frac{2}{5}\\overrightarrow{AD}，\\overrightarrow{AF}=\\frac{1}{2}\\overrightarrow{AB}，\n      ∴ AE=2\\sqrt{3}，AF=4。\n      在△AEF中，由余弦定理得：EF^2 = AF^2 + AE^2 - 2AF·AE·cosA = 16 + 12 - 2×4×2\\sqrt{3}×\\frac{\\sqrt{3}}{2} = 4，则 EF=2。\n      ∴ EF⊥AE\n      又∵ △AEF沿EF翻折至△PEF，EF⊥PE。\n      又∵ AE∩PE=E，AE、PE⊂平面PED，∴ EF⊥平面PED。\n      又∵ PDC⊂平面PED，∴ EF⊥PD。\n\n      (2) 由(1)知 EF⊥AE，又 CD⊥AD，CD∥EF。\n      ∴ EF⊥平面PED，∴ CD⊥平面PED。\n      又∵ PDC⊂平面PED，∴ CD⊥PD。\n      在Rt△PCD中，PD=\\sqrt{PC^2-CD^2}=\\sqrt{39}。\n      又∵ ED=AD-AE=3\\sqrt{3}，∴ PE+EP^2=PD^2。\n      ∴ PE⊥ED。\n      ∴ 以E为原点，EF、ED、EP所在直线分别为x、y、z轴建立如图所示的空间直角坐标系，则 P(0,0,\\sqrt{3}) F(2,0,0) D(0,3\\sqrt{3},0) B(4,2\\sqrt{3},0)，C(3,3\\sqrt{3},0)。∴ \\overrightarrow{FP} = (-2,0,\\sqrt{3}) \\overrightarrow{BP} = (-4,-2\\sqrt{3},\\sqrt{3}) \\overrightarrow{DP} = (0,-3\\sqrt{3},\\sqrt{3})。\n      设平面PBF的法向量为 \\overrightarrow{n_1} = (x_1, y_1, z_1)，则 \\begin{cases} \\overrightarrow{FP} \\cdot \\overrightarrow{n_1} = 0 \\\\ \\overrightarrow{BP} \\cdot \\overrightarrow{n_1} = 0 \\end{cases} 即 \\begin{cases} -2x_1 + \\sqrt{3}z_1 = 0 \\\\ -4x_1 - 2\\sqrt{3}y_1 + \\sqrt{3}z_1 = 0 \\end{cases} 令 z_1=1，则 \\overrightarrow{n_1} = (\\frac{\\sqrt{3}}{2}, -\\frac{1}{2}, 1)。\n      设平面PCD的法向量为 \\overrightarrow{n_2} = (x_2, y_2, z_2)，则 \\begin{cases} \\overrightarrow{DP} \\cdot \\overrightarrow{n_2} = 0 \\\\ \\overrightarrow{CP} \\cdot \\overrightarrow{n_2} = 0 \\end{cases} 即 \\begin{cases} -3\\sqrt{3}y_2 + \\sqrt{3}z_2 = 0 \\\\ -3x_2 - 3\\sqrt{3}y_2 + z_2 = 0 \\end{cases} 令 z_2=3，则 \\overrightarrow{n_2} = (0, 1, 3)。\n      设平面PCD与平面PBF所成的二面角的平面角为θ。\n      则 |cosθ| = |cos<\\overrightarrow{n_1}, \\overrightarrow{n_2}>| = \\frac{|\\overrightarrow{n_1} \\cdot \\overrightarrow{n_2}|}{\\|\\overrightarrow{n_1}\\| \\|\\overrightarrow{n_2}\\|} = \\frac{|\\frac{\\sqrt{3}}{2} \\cdot 0 + (-\\frac{1}{2}) \\cdot 1 + 1 \\cdot 3|}{\\sqrt{(\\frac{\\sqrt{3}}{2})^2 + (-\\frac{1}{2})^2 + 1^2} \\cdot \\sqrt{0^2 + 1^2 + 3^2}} = \\frac{|-\\frac{1}{2} + 3|}{\\sqrt{\\frac{3}{4} + \\frac{1}{4} + 1} \\cdot \\sqrt{1 + 9}} = \\frac{|\\frac{5}{2}|}{\\sqrt{\\frac{3}{4} + \\frac{1}{4} + \\frac{4}{4}} \\cdot \\sqrt{10}} = \\frac{\\frac{5}{2}}{\\sqrt{\\frac{3+1+4}{4}} \\cdot \\sqrt{10}} = \\frac{\\frac{5}{2}}{\\sqrt{\\frac{8}{4}} \\cdot \\sqrt{10}} = \\frac{\\frac{5}{2}}{\\sqrt{2} \\cdot \\sqrt{10}} = \\frac{\\frac{5}{2}}{\\sqrt{20}} = \\frac{\\frac{5}{2}}{2\\sqrt{5}} = \\frac{\\frac{5}{2}}{\\frac{4\\sqrt{5}}{\\sqrt{5}}} = \\frac{\\frac{5}{2}}{\\frac{4\\sqrt{5}}{5}} = \\frac{\\frac{5}{2}}{\\frac{4\\sqrt{5}}{5}} = \\frac{\\frac{5}{2} \\cdot 5}{4\\sqrt{5}} = \\frac{\\frac{25}{2}}{4\\sqrt{5}} = \\frac{25}{2} \\cdot \\frac{1}{4\\sqrt{5}} = \\frac{25}{2} \\cdot \\frac{\\sqrt{5}}{20} = \\frac{25\\sqrt{5}}{40} = \\frac{5\\sqrt{5}}{8}。\n      ∴ sinθ = \\sqrt{1 - cos^2θ} = \\sqrt{1 - (\\frac{5\\sqrt{5}}{8})^2} = \\sqrt{1 - \\frac{125}{64}} = \\sqrt{\\frac{64}{64} - \\frac{125}{64}} = \\sqrt{\\frac{64-125}{64}} = \\sqrt{\\frac{-61}{64}} = \\boxed{\\frac{8}{\\sqrt{65}}}。"
+  }
+}
